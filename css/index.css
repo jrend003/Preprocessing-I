@@ -159,15 +159,24 @@ html {
 nav a {
   color: white;
   font-family: garamond;
+  font-size: 24px;
   text-decoration: none;
 }
 .name {
   color: white;
   font-family: garamond;
   font-weight: bold;
+  font-size: 32px;
 }
 .hire {
   color: white;
   font-family: garamond;
   font-weight: bold;
+  font-size: 32px;
+}
+.skills {
+  color: white;
+  font-family: garamond;
+  font-weight: bold;
+  font-size: 32px;
 }
