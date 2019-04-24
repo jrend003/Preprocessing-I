@@ -56,4 +56,73 @@ table {
 html, body {
     height: 100%;
 }
+@color:white;
+@font-1:garamond,serif;
 
+
+
+html {
+	background: url(../img/background1.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  .prof-box {
+	width: 750px;
+	height: 750px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 80px;
+	text-align: center;
+  }
+  .prof-pic {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+  }
+  nav a{
+	color: @color;
+	font-family:@font-1;
+	font-size:24px;
+	text-decoration: none;
+	.space;
+  }
+
+  .name{
+	  color:@color;
+	  font-family:@font-1;
+	  font-weight:bold;
+	  font-size:32px;
+	  
+  }
+
+  .hire{
+	  .name;
+  }
+
+  .skills{
+	  .name;
+	  
+  }
+
+  .work{
+	  .name;
+  }
+.contact{
+	.name;
+}
+
+.space{
+	margin:10px;
+}
+
+@media(max-width:500px){
+	nav a{
+		display:flex;
+		flex-direction:column;
+	}
+      
+}
