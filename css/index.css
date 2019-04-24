@@ -142,13 +142,13 @@ html {
   background-size: cover;
 }
 .prof-box {
-  width: 600px;
-  height: 600px;
+  width: 750px;
+  height: 750px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   color: white;
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 80px;
   text-align: center;
 }
 .prof-pic {
@@ -158,25 +158,47 @@ html {
 }
 nav a {
   color: white;
-  font-family: garamond;
+  font-family: garamond, serif;
   font-size: 24px;
   text-decoration: none;
+  margin: 10px;
 }
 .name {
   color: white;
-  font-family: garamond;
+  font-family: garamond, serif;
   font-weight: bold;
   font-size: 32px;
 }
 .hire {
   color: white;
-  font-family: garamond;
+  font-family: garamond, serif;
   font-weight: bold;
   font-size: 32px;
 }
 .skills {
   color: white;
-  font-family: garamond;
+  font-family: garamond, serif;
   font-weight: bold;
   font-size: 32px;
+}
+.work {
+  color: white;
+  font-family: garamond, serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.contact {
+  color: white;
+  font-family: garamond, serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.space {
+  margin: 10px;
+}
+@media (max-width: 500px) {
+  nav a {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -57,7 +57,7 @@ html, body {
     height: 100%;
 }
 @color:white;
-@font-1:garamond;
+@font-1:garamond,serif;
 
 
 
@@ -69,13 +69,13 @@ html {
 	background-size: cover;
   }
   .prof-box {
-	width: 600px;
-	height: 600px;
+	width: 750px;
+	height: 750px;
 	background: rgba(0, 0, 0, 0.4);
 	padding: 40px;
 	color: white;
 	margin: 0 auto;
-	margin-top: 140px;
+	margin-top: 80px;
 	text-align: center;
   }
   .prof-pic {
@@ -88,6 +88,7 @@ html {
 	font-family:@font-1;
 	font-size:24px;
 	text-decoration: none;
+	.space;
   }
 
   .name{
@@ -104,5 +105,24 @@ html {
 
   .skills{
 	  .name;
+	  
   }
 
+  .work{
+	  .name;
+  }
+.contact{
+	.name;
+}
+
+.space{
+	margin:10px;
+}
+
+@media(max-width:500px){
+	nav a{
+		display:flex;
+		flex-direction:column;
+	}
+      
+}
